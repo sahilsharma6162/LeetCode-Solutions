@@ -7,7 +7,6 @@ using namespace std;
 class Solution {
 public:
 
-    
     int findCircleNum(vector<vector<int>>& isConnected) {
         vector<int> adjLs[isConnected.size()];
         for(int i=0;i<isConnected.size();i++){
@@ -18,6 +17,7 @@ public:
                 }
             }
         }
+        
         vector<bool> visited(isConnected.size(),false);
         int Num=0;
        for(int i=0;i<visited.size();i++){

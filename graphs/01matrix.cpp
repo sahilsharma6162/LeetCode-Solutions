@@ -20,9 +20,8 @@ vector<vector<int>> updateMatrix(vector<vector<int>>& mat) {
                       }
                 }
             }
-
              int dr[] = {-1, 1, 0, 0};
-           int dc[] = {0, 0, -1, 1};
+             int dc[] = {0, 0, -1, 1};
            while(!q.empty()){
                 int row = q.front().first;
                 int col = q.front().second;

@@ -20,6 +20,7 @@ public:
                 result.push_back(node);
                 return false;
       }
+      
        vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         int n= graph.size();
         vector<int>result;
